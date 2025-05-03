@@ -7,11 +7,11 @@ export default {
   mode: 'jit',
   theme: {
     extend: {
-      color:{
+      colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
-        dimwhite: "rgba(255, 255, 255, 0.7)",
-        dimblue: "rgba(9, 151, 124, 0.1)",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
         },
       fontFamily: {
         poppins: ["poppins", "sans-serif"]
@@ -19,11 +19,11 @@ export default {
     },
      screens: {
       xs: "480px",
-      xs: "620px",
-      xs: "768px",
-      xs: "1060px",
-      xs: "1200px",
-      xs: "1700px"
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
      },
   },
   plugins: [],

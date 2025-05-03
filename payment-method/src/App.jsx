@@ -3,7 +3,7 @@ import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients
 
 const App = () => (
     <div className='bg-black w-full overflow-hidden'>
-      <div classname={`${styles.paddingX}`}>
+      <div className={`${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
            <Navbar />
         </div>

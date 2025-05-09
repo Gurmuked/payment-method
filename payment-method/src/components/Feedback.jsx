@@ -7,7 +7,7 @@ const Feedback = ({content, name, title, img}) => (
      <p className='font-poppins font-normal text-[18px] leading-[32px] text-white'>
          {content}
      </p>
-     <div className='flex flex-row'>
+     <div className='flex flex-row my-5'>
         <img src={img} alt={name}  className='w-[48px] h-[48px] rounded-full'/>
          <div className='flex flex-col ml-8'>
             <h4 className='font-poppins font-semibold text-[20px] leading-[32px] text-white'>
